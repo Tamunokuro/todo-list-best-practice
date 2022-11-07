@@ -1,8 +1,7 @@
-import check from "./check.js";
+import check from './check.js';
 
 export default function isCompleted() {
   const checked = document.querySelectorAll('.select');
-  const todoItems = document.querySelectorAll('.todo-item');
 
   checked.forEach((itemCheck) => {
     itemCheck.addEventListener('change', (e) => {
