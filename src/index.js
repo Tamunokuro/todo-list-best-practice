@@ -15,7 +15,7 @@ const refreshImg = new Image();
 refreshImg.src = refreshIcon;
 refresh.appendChild(refreshImg);
 
-ToDo.addTodo();
+ToDo.addTodo()
 ToDo.displayTodo();
 ToDo.deleteTodo();
 ToDo.editTodo();
